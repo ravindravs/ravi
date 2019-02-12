@@ -1,0 +1,14 @@
+<h1>Number of Words are ={{length}}</h1>
+<h2>The List of Words are {{abc}}</h2>
+<h3>All words count </h3>
+<ol type="1">
+  {% for key,value in abc.items %}
+  <li>{{key}}:{{value}}</li>
+  {% endfor %}
+</ol>
+<p><b>The Words arranged In Descending Order</b></p>
+<ol type="1">
+  {% for key,value in cba %}
+  <li>{{key}}:{{value}}</li>
+  {% endfor %}
+</ol>
